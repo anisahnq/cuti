@@ -1,0 +1,110 @@
+Oracle SQL Developer Data Modeler 17.2.0.188.1059
+Oracle SQL Developer Data Modeler Import Log
+Date and Time: 2018-01-07 10:46:23 ICT
+Design Name: cuti_online
+RDBMS : SQL Server 2008
+
+		All Statements: 		55
+		Imported Statements: 	6
+		Failed Statements: 		0
+		Not Recognized Statements: 	49
+
+<<<<< Not Recognized >>>>>
+﻿# Host: localhost  (Version: 5.6.20)
+
+# Date: 2016-08-21 09:35:20
+
+# Generator: MySQL-Front 5.2  (Build 5.66)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DROP DATABASE IF EXISTS `cuti_online`
+
+#
+
+# Source for table "admin"
+
+#
+
+DROP TABLE IF EXISTS `admin`
+
+#
+
+# Data for table "admin"
+
+#
+
+INSERT INTO `admin` VALUES ('admin','admin')
+
+#
+
+# Source for table "managerhrd"
+
+#
+
+DROP TABLE IF EXISTS `managerhrd`
+
+#
+
+# Data for table "managerhrd"
+
+#
+
+INSERT INTO `managerhrd` VALUES (2,'ryfan','ryfan','Ryfan Aditya','Perumahan Dasana Indah\r\nBlok RE 6 No 3','Staff Manager','081270761580'),(3,'michael','MICHAEL','Michael','Budi Luhur','Admin Lab 4','144234234')
+
+#
+
+# Source for table "pegawai"
+
+#
+
+DROP TABLE IF EXISTS `pegawai`
+
+#
+
+# Data for table "pegawai"
+
+#
+
+INSERT INTO `pegawai` VALUES (1,'ryfan','ganteng','Localhost','Direktur Masa Kini','Perumahan Dasana Indah\r\nBlok RE 6 No 3','081270761580',2,2,2),(3,'joko','joko','Joko Priyono','Marketing Coming Soon','Pondok Aren Gan!','094384938934',1,1,1),(9,'agungjoe','agungajah','Agung Santoso','Kepala Lab','Jl. H Ilias RT 3 RW 10 Jakarta Selatan','085692886062',2,3,5),(11,'helmi','helmi','Helmi Nur Ihsan','SPV Penjadwalan','Ciledug','0812398321983',2,1,2),(12,'michael','michael','Michael','SPV Ganteng','Ciledug','12312321',3,1,2),(13,'tes','tes','tes','tes','tes','0821',1,1,1),(14,'arif','arif','Arif','Programmer','Sangiang','094039403',3,2,3)
+
+#
+
+# Source for table "permohonan"
+
+#
+
+DROP TABLE IF EXISTS `permohonan`
+
+#
+
+# Data for table "permohonan"
+
+#
+
+INSERT INTO `permohonan` VALUES (1,2,1,'2016-02-02','2016-02-04','Pulang Kampung','Tidak Disetujui',NULL,NULL,NULL),(2,2,11,'2016-08-01','2016-08-02','Melanjutkan Kuliah S2 di Universitas Ternama di Indonesia','Disetujui',2,1,2),(3,2,11,'2016-08-04','2016-08-12','Kangen Mantan','Disetujui',2,1,2),(4,2,12,'2016-02-02','2016-03-02','Ada Keperluan','Disetujui',3,1,2),(5,2,11,'2016-08-16','2016-08-26','Cuti 3','Disetujui',2,1,2),(6,2,11,'2016-08-01','2016-08-27','1231321','Disetujui',2,1,2),(7,2,11,'2016-08-06','2016-08-31','123456789','Disetujui',2,1,2),(8,2,11,'2016-08-01','2016-08-07','pergi','Disetujui',2,1,2),(9,3,11,'2016-01-01','2016-08-01','Menikmati Indahnya Dunia','Disetujui',2,1,2),(10,2,14,'2016-09-01','2016-08-07','Berlibur bersama keluarga','Tidak Disetujui',3,2,3)
+
+
+
+
+
+
+
+
+
+
+
