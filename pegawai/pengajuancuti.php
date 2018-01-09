@@ -211,7 +211,7 @@ FROM managerhrd a, pegawai b, permohonan c WHERE a.id_managerhrd=c.id_managerhrd
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; 2016 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
+                    &copy; 2017 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
                 </p>
             </div>
         </footer>

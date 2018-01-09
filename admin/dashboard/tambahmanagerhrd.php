@@ -171,25 +171,6 @@ echo date("l, d-m-Y");?></p>
         </div>
         <footer class="footer">
             <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Dashboard
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                User Profile
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Ubah Password
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
                 <p class="copyright pull-right">
                     &copy; 2017 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
                 </p>

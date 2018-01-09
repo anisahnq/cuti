@@ -121,12 +121,12 @@ echo date("l, d-m-Y");?>
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="staff.php">
+                            <a href="managerhrd.php">
                                 Dashboard
                             </a>
                         </li>
                         <li>
-                            <a href="profilstaff.php">
+                            <a href="profilmanagerhrd.php">
                                 Profil Staff
                             </a>
                         </li>

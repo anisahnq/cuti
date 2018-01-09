@@ -179,13 +179,13 @@ echo date("l, d-m-Y");?></p>
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="Manager HRD.php">
+                            <a href="managerhrd.php">
                                 Dashboard
                             </a>
                         </li>
                         <li>
-                            <a href="profilManager HRD.php">
-                                Profil Manager HRD
+                            <a href="profilmanagerhrd.php">
+                                Profil Staff
                             </a>
                         </li>
                         <li>

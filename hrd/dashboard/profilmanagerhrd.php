@@ -148,14 +148,14 @@ echo date("l, d-m-Y");?>
         <footer class="footer">
             <div class="container-fluid">
                 <nav class="pull-left">
-                    <ul>
+                        <ul>
                         <li>
-                            <a href="dashboard.php">
+                            <a href="managerhrd.php">
                                 Dashboard
                             </a>
                         </li>
                         <li>
-                            <a href="profilstaff.php">
+                            <a href="profilmanagerhrd.php">
                                 Profil Staff
                             </a>
                         </li>

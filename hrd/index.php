@@ -32,14 +32,13 @@ include('../koneksi.php');
     </style>
   </head>
   <body>
-  <body class="green darken-2">
+  <body class="blue">
   <div class="row">
     <div class="col s12 z-depth-6 card-panel">
       <form class="login-form" action="auth.php" method="post">
         <div class="row">
           <div class="input-field col s12 center">
-            <img src="../images/logo.png" alt="" class="responsive-img valign profile-image-login">
-            <p class="center login-form-text">Login Staff - Sistem Cuti Online</p>
+            <p class="center login-form-text">Login Manager HRD - Sistem Cuti Online</p>
           </div>
         </div>
         <div class="row margin">
@@ -56,12 +55,12 @@ include('../koneksi.php');
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right">send</i></button>
+            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right"></i></button>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <p class="margin medium-small center">Copyright 2016</p>
+            <p class="margin medium-small center">Copyright 2017</p>
           </div>
         </div>
       </form>

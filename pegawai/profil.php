@@ -2,7 +2,7 @@
 session_start();
 include('../koneksi.php');
 if(empty($_SESSION['username'])){
-header("location:../index.php");
+header("location:../logp.php");
 }
 ?>
 <!doctype html>
@@ -177,7 +177,7 @@ echo date("l, d-m-Y");?>
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; 2016 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
+                    &copy; 2017 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
                 </p>
             </div>
         </footer>

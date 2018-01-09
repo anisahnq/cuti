@@ -26,5 +26,22 @@ class tes extends PHPUnit_Framework_TestCase
 	}
 	
 	
+	function testPersetujuan(){
+		$sql = mysql_query("SELECT * FROM permohonan where kd_cuti = '9'");
+		$user = mysql_fetch_array($sql);
+		$test_user = $user['keterangan'];
+		$content = $test_user;
+		$this->assertEquals('Disetujui',$content);
+	}
+
+	function testJumlahPermohonan(){
+		$sql = mysql_query("SELECT count( kd_cuti ) AS id FROM permohonan WHERE keterangan = 'Disetujui'");
+		$user = mysql_fetch_array($sql);
+		$test_user = $user['id'];
+		$content = $test_user;
+		$this->assertEquals('8',$content);
+	}
+
+
 }
 ?>

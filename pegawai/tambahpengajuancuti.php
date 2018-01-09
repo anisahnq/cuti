@@ -233,7 +233,7 @@ $sisa=12-$i;
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; 2016 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
+                    &copy; 2017 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
                 </p>
             </div>
         </footer>

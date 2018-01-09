@@ -55,7 +55,7 @@ include('../koneksi.php');
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right">send</i></button>
+            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right"></i></button>
           </div>
         </div>
         <div class="row">

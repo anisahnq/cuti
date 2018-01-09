@@ -32,7 +32,7 @@ include('koneksi.php');
     </style>
   </head>
   <body>
-  <body class="red">
+  <body class="blue">
   <div class="row">
     <div class="col s12 z-depth-6 card-panel">
       <form class="login-form" action="auth.php" method="post">
@@ -55,12 +55,12 @@ include('koneksi.php');
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right">send</i></button>
+            <button class="btn waves-effect waves-light col s12" type="submit" name="login">Masuk<i class="material-icons right"></i></button>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <p class="margin medium-small center">Copyright 2016</p>
+            <p class="margin medium-small center">Copyright 2017</p>
           </div>
         </div>
       </form>
