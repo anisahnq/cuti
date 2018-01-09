@@ -47,7 +47,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="blue" data-image="assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="" data-image="../../images/border.png">
     <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"

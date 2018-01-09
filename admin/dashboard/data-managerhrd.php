@@ -52,7 +52,7 @@ header("location:../index.php");
 </head>
 <body>
 <div class="wrapper">
-    <div class="sidebar" data-color="blue" data-image="assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="" data-image="../../images/border.png">
     <!--
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
         Tip 2: you can also add an image using data-image tag

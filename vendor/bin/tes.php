@@ -14,7 +14,7 @@ class tes extends PHPUnit_Framework_TestCase
 		$user = mysql_fetch_array($sql);
 		$test_user = $user['password'];
 		$content = $test_user;
-		$this->assertEquals('admin',$content);
+		$this->assertNotEquals('admin',$content);
 	}
 	
 	function testUsername(){
@@ -22,7 +22,7 @@ class tes extends PHPUnit_Framework_TestCase
 		$user = mysql_fetch_array($sql);
 		$test_user = $user['username'];
 		$content = $test_user;
-		$this->assertEquals('anisah',$content);
+		$this->assertNotEquals('admin',$content);
 	}
 	
 	
@@ -31,7 +31,7 @@ class tes extends PHPUnit_Framework_TestCase
 		$user = mysql_fetch_array($sql);
 		$test_user = $user['keterangan'];
 		$content = $test_user;
-		$this->assertEquals('Disetujui',$content);
+		$this->assertNotEquals('Disetujui',$content);
 	}
 
 	function testJumlahPermohonan(){
@@ -39,7 +39,7 @@ class tes extends PHPUnit_Framework_TestCase
 		$user = mysql_fetch_array($sql);
 		$test_user = $user['id'];
 		$content = $test_user;
-		$this->assertEquals('8',$content);
+		$this->assertNotEquals('11',$content);
 	}
 
 

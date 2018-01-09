@@ -2,7 +2,7 @@
 session_start();
 include('../koneksi.php');
 if(empty($_SESSION['username'])){
-header("location:../logp.php");
+header("location:../index.php");
 }
 ?>
 <!doctype html>
@@ -34,7 +34,7 @@ header("location:../logp.php");
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="green" data-image="../images/border.png">
     <!--
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
         Tip 2: you can also add an image using data-image tag
@@ -177,7 +177,7 @@ echo date("l, d-m-Y");?>
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; 2017 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
+                    &copy; 2016 <a href="#">Sistem Cuti Online</a>, All Right Reserverd.
                 </p>
             </div>
         </footer>

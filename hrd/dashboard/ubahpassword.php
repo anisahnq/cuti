@@ -34,7 +34,7 @@ header("location:../index.php");
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="azure" data-image="assets/img/sidebar-2.jpg">
+    <div class="sidebar" data-color="red" data-image="../../images/border.png">
     <!--
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
         Tip 2: you can also add an image using data-image tag
